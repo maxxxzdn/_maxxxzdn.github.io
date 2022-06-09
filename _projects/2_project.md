@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: graph neural networks
+description: Interpretable classification of EEG data with GNNs and GNNExplainer.
+img: assets/img/gnns.png
 importance: 2
-category: work
+category: neuroscience
 ---
 
 Every project has a beautiful feature showcase page.

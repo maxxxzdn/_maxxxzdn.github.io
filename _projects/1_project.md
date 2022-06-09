@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: generative modelling
+description: Learning neurological mechanisms of pathologies with variational auto-encoders.
+img: assets/img/eegvae.png
 importance: 1
-category: work
+category: neuroscience
 ---
 
 Every project has a beautiful feature showcase page.
