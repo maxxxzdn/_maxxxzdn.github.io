@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: cool projects I participated in. scroll down to see all.
+description: cool projects I participated in. 
 nav: true
 nav_order: 1
-display_categories: [neuroscience, matter]
+display_categories: 
 horizontal: false
 ---
 
