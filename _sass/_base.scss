@@ -62,6 +62,27 @@ blockquote {
 
 // Card
 
+.card {
+  background-color: var(--global-card-bg-color);
+
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
 
 // Citation
 
@@ -89,7 +110,7 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
-    box-shadow: 14px 14px 0 -4px gold, 14px 14px 0 0 black;
+    box-shadow: 14px -14px 0 -4px gold, 14px 14px 0 0 black;
     .address {
       p { display: block; }
     }
