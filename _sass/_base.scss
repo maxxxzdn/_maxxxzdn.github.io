@@ -32,10 +32,6 @@ a, table.table a {
   }
 }
 
-figure, img {
-  max-width: 90vw;
-}
-
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
@@ -550,7 +546,9 @@ footer.sticky-bottom div {
 }
 
 // Rouge Color Customization
-
+figure.highlight {
+  margin: 0 0 1rem;
+}
 
 pre {
   color: var(--global-theme-color);
