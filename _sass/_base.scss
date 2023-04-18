@@ -110,19 +110,12 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    box-shadow: 0px 5px 10px navy;
     .address {
-      p { 
-        display: block; 
-      }
-    }
-
-    /* Add box shadow to profile picture */
-    img {
-      box-shadow: 0px 5px 10px navy; /* Adjust the values as needed */
+      p { display: block; }
     }
   }
 }
-
 
 .post-description {
   margin-bottom: 2rem;
