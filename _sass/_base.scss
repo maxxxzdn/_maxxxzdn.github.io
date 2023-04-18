@@ -62,27 +62,6 @@ blockquote {
 
 // Card
 
-.card {
-  background-color: var(--global-card-bg-color);
-
-  img {
-    width: 100%;
-  }
-
-  .card-title {
-    color: var(--global-text-color);
-  }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
-  }
-}
 
 // Citation
 
@@ -96,6 +75,15 @@ blockquote {
   margin-left: 1rem;
   width: 100%;
 
+  .address {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
 }
 
 @media (min-width: 576px) {
