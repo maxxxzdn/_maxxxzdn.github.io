@@ -93,7 +93,19 @@ blockquote {
 // Profile
 
 .img-fluid.z-dept-1.rounded {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* You can adjust the values here for the desired shadow effect */
+  position: relative; /* Add relative positioning */
+}
+
+.img-fluid.z-dept-1.rounded::before {
+  content: ""; /* Add empty content for pseudo-element */
+  position: absolute; /* Set to absolute positioning */
+  top: 0; /* Position at the top of the parent element */
+  left: 0; /* Position at the left of the parent element */
+  width: 100%; /* Set width to 100% to cover the entire parent element */
+  height: 100%; /* Set height to 100% to cover the entire parent element */
+  background-color: navy; /* Set the background color to navy */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Add the box shadow */
+  z-index: -1; /* Set z-index to -1 to position the pseudo-element behind the photo */
 }
 
 .profile {
