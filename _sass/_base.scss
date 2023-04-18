@@ -95,25 +95,12 @@ blockquote {
 .profile {
   margin-left: 1rem;
   width: 100%;
-
-  .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-    p {
-      display: inline-block;
-      margin: 0;
-    }
-  }
 }
 
 @media (min-width: 576px) {
   .profile {
     width: 30%;
-    box-shadow: 10px -10px 0px 0px rgba(135, 118, 222, 0.75);
-    .address {
-      p { display: block; }
-    }
+    box-shadow: 10px -10px 0px 0px rgb(96, 173, 237);
   }
 }
 
