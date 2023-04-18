@@ -75,6 +75,7 @@ blockquote {
 
   .card-item {
     width: auto;
+    margin-bottom: 10px;
 
     .row {
       display: flex;
@@ -549,9 +550,7 @@ footer.sticky-bottom div {
 }
 
 // Rouge Color Customization
-figure.highlight {
-  margin: 0 0 1rem;
-}
+
 
 pre {
   color: var(--global-theme-color);
